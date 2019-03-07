@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/mOneCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="1" />
+
+        <CheckBox
+            android:id="@+id/mTwoCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="2" />
+
+        <CheckBox
+            android:id="@+id/mThreeCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="3" />
+
+        <CheckBox
+            android:id="@+id/mFourCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="4" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mOpenBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启辅助功能" />
+
+    <Button
+        android:id="@+id/mSimulationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模拟点击" />
+
+</LinearLayout>

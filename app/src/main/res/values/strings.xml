@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AccessibilityDemo</string>
+    <string name="accessibility_introduction">开启辅助功能后，自动帮你完成一系列重复操作</string>
+</resources>
